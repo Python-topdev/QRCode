@@ -36,3 +36,68 @@
     transform: rotate(360deg);
   }
 }
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7f8fc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  width: 90%;
+  max-width: 800px;
+  text-align: center;
+}
+
+h1 {
+  color: #333;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.qr-section {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.generator, .scanner {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 350px;
+}
+
+h2 {
+  color: #4a4a4a;
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+
+.input-box {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.qr-display {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+.qr-reader {
+  width: 100%;
+  max-width: 300px;
+  margin: 15px auto;
+}
